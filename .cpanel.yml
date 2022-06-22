@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/luszlcot/metastudy.id/git
+- /bin/cp -r * $DEPLOYPATH
